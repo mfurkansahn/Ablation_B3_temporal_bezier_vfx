@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Datasets & outputs , Pretrained & trained weights
+data/
+results/
+weights/
+flownet/pretrained/*.pth
+
+# OS / editor
+.DS_Store
+.vscode/
