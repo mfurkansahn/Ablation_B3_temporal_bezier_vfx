@@ -49,13 +49,13 @@ def update_config(args=None, mode=None):
         share_config['use_bezier'] = True
 
         share_config['lambda_temporal_max'] = 0.01
-        share_config['lambda_bezier_max'] = 0.002
+        share_config['lambda_bezier_max'] = 0.0025
 
         share_config['temp_ramp_start'] = 16000
         share_config['temp_ramp_end']   = 20000
 
-        share_config['bez_ramp_start']  = 24000
-        share_config['bez_ramp_end']    = 29000
+        share_config['bez_ramp_start']  = 23000
+        share_config['bez_ramp_end']    = 27000
 
     elif mode == 'test':
         share_config['test_data'] = share_config['data_root'] + args.dataset + '/testing/frames/'
